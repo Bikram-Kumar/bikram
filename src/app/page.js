@@ -1,8 +1,15 @@
+import { HeroBeams, HeroLines } from "@/components/ui/hero-scenes";
+
+
 
 export default function Home() {
+  var rnum = Math.random();
   return (
-    <div className="h-screen flex items-center justify-center">
-      Hi Bikram
-    </div>
+    <>
+
+      {(rnum < 0.33) ? <HeroLines/> : ((rnum < 0.66) ? <HeroBeams/> : <HeroLines/>)}
+
+    </>
   );
 }
+
