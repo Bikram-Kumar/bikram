@@ -1,4 +1,4 @@
-import { HeroBeams, HeroLines } from "@/components/ui/hero-scenes";
+import { HeroBeams, HeroDot, HeroLines } from "@/components/ui/hero-scenes";
 
 
 
@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
 
-      {(rnum < 0.33) ? <HeroLines/> : ((rnum < 0.66) ? <HeroBeams/> : <HeroLines/>)}
+      {(rnum < 0.33) ? <HeroLines/> : ((rnum < 0.66) ? <HeroBeams/> : <HeroDot/>)}
 
     </>
   );
