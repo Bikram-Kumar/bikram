@@ -5,7 +5,7 @@ import { BackgroundLines } from "./background-lines";
 
 export function HeroLines () {
     return (
-        <BackgroundLines className="flex items-center justify-center w-full flex-col px-4">
+        <BackgroundLines className="flex items-center justify-center w-full h-svh flex-col px-4">
             <h2 className="bg-clip-text text-transparent text-center bg-gradient-to-b from-neutral-900 to-neutral-700 dark:from-neutral-600 dark:to-white text-2xl md:text-4xl lg:text-7xl font-sans py-2 md:py-10 relative z-20 font-bold tracking-tight">
                 Bikram Kumar, <br /> Software Developer.
             </h2>
@@ -21,7 +21,7 @@ export function HeroLines () {
 
 export function HeroBeams () {
     return (
-        <BackgroundBeamsWithCollision className="flex items-center justify-center w-full flex-col px-4">
+        <BackgroundBeamsWithCollision className="flex items-center justify-center w-full h-svh flex-col px-4">
             <h2 className="bg-clip-text text-transparent text-center bg-gradient-to-b from-neutral-900 to-neutral-700 dark:from-neutral-600 dark:to-white text-2xl md:text-4xl lg:text-7xl font-sans py-2 md:py-10 relative z-20 font-bold tracking-tight">
                 Bikram Kumar,<br/>
                 <div className="relative mx-auto inline-block w-max [filter:drop-shadow(0px_1px_3px_rgba(27,_37,_80,_0.14))]">
