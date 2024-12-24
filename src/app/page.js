@@ -1,9 +1,8 @@
-"use client";
 import { HeroBeams, HeroDot, HeroLines } from "@/components/ui/hero-scenes";
 
+export const dynamic = 'force-dynamic';
 
-
-export default function Home() {
+export default async function Home() {
   var rnum = Math.random();
   return (
     <>
