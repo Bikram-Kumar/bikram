@@ -1,3 +1,4 @@
+"use client";
 import { HeroBeams, HeroDot, HeroLines } from "@/components/ui/hero-scenes";
 
 
