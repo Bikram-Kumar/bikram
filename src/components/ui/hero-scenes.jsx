@@ -1,6 +1,18 @@
+import { connection } from "next/server";
 import { BackgroundBeamsWithCollision } from "./background-beams-with-collision";
 import { BackgroundLines } from "./background-lines";
+import { Suspense } from "react";
 
+
+export async function HeroSection () {
+    await connection();
+    const rnum = Math.random();
+    return (
+        <Suspense fallback={<BackgroundLines/>} > 
+            {(rnum < 0.33) ? <HeroLines/> : ((rnum < 0.66) ? <HeroBeams/> : <HeroDot/>)}
+        </Suspense>
+    );
+}
 
 
 export function HeroLines () {

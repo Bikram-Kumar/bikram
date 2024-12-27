@@ -1,14 +1,10 @@
-import { HeroBeams, HeroDot, HeroLines } from "@/components/ui/hero-scenes";
+import { HeroSection } from "@/components/ui/hero-scenes";
 
-export const dynamic = 'force-dynamic';
 
-export default async function Home() {
-  var rnum = Math.random();
+export default async function Home () {
   return (
     <>
-
-      {(rnum < 0.33) ? <HeroLines/> : ((rnum < 0.66) ? <HeroBeams/> : <HeroDot/>)}
-
+      <HeroSection />
     </>
   );
 }
