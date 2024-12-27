@@ -1,4 +1,4 @@
-import { HeroSection } from "@/components/ui/hero-scenes";
+import { HeroSection } from "@/components/HeroSection/hero-scenes";
 
 
 export default async function Home () {
