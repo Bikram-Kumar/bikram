@@ -19,7 +19,7 @@ export async function HeroSection () {
 
 export function HeroLines () {
     return (
-        <BackgroundLines className="flex items-center justify-center w-full h-svh flex-col px-4">
+        <BackgroundLines className="relative flex items-center justify-center w-full h-svh flex-col px-4">
             <h2 className="bg-clip-text text-transparent text-center bg-gradient-to-b from-neutral-900 to-neutral-700 dark:from-neutral-600 dark:to-white text-2xl md:text-4xl lg:text-7xl font-sans py-2 md:py-10 relative z-20 font-bold tracking-tight">
                 Bikram Kumar<br/>
                 <div className="relative mx-auto inline-block w-max [filter:drop-shadow(0px_1px_3px_rgba(27,_37,_80,_0.14))]">
@@ -48,7 +48,7 @@ export function HeroLines () {
 
 export function HeroBeams () {
     return (
-        <BackgroundBeamsWithCollision className="flex items-center justify-center w-full h-svh flex-col px-4">
+        <BackgroundBeamsWithCollision className="relative flex items-center justify-center w-full h-svh flex-col px-4">
             <h2 className="bg-clip-text text-transparent text-center bg-gradient-to-b from-neutral-900 to-neutral-700 dark:from-neutral-600 dark:to-white text-2xl md:text-4xl lg:text-7xl font-sans py-2 md:py-10 relative z-20 font-bold tracking-tight">
                 Bikram Kumar<br/>
                 <div className="relative mx-auto inline-block w-max [filter:drop-shadow(0px_1px_3px_rgba(27,_37,_80,_0.14))]">
@@ -74,7 +74,7 @@ export function HeroBeams () {
 
 export function HeroDot() {
     return (
-        <div className="flex h-screen w-full dark:bg-black bg-white  dark:bg-dot-white/[0.2] bg-dot-black/[0.2] relative flex-col items-center justify-center px-4">
+        <div className="flex h-screen w-full dark:bg-black bg-white dark:bg-dot-white/[0.2] bg-dot-black/[0.2] relative flex-col items-center justify-center px-4">
             {/* Radial gradient for the container to give a faded look */}
             <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
             
