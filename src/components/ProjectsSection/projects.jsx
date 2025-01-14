@@ -1,3 +1,4 @@
+
 export default function ProjectsSection() {
     return (
         <div className="h-screen w-full bg-neutral-950 pt-8">
@@ -7,5 +8,6 @@ export default function ProjectsSection() {
                 </h1>
             </div>
         </div>
+    
     );    
 }
