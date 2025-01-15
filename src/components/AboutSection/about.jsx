@@ -20,7 +20,7 @@ export default function AboutSection() {
                     />
                 </Revealer>
                 <Revealer>
-                    <p className="w-full max-w-xl my-8">
+                    <p className="w-full max-w-xl my-8 px-4">
                             Hi there, I am Bikram Kumar, a 2nd-year Computer Science undergraduate at the National Institute of Technology Agartala, with a strong passion for programming and software development.
                             Beginning my programming journey in high school, I have worked on innovative projects like ControlBoard and Fooduck, showcasing my ability to design impactful, real-world solutions. Proficient in cross-platform and full-stack development, I am skilled in technologies such as Flutter, Android SDK, Express.js, and React. I also have a solid foundation in computer architecture, software engineering principles, and algorithmic problem-solving, enabling me to create efficient and scalable solutions.
                     </p>
