@@ -1,6 +1,6 @@
 {
   "name": "bikram",
-  "version": "0.1.0",
+  "version": "1.2",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -17,8 +17,7 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "tailwind-merge": "^2.5.5",
-    "tailwindcss-animated": "^1.1.2",
-    "tech-stack-icons": "^2.1.0"
+    "tailwindcss-animated": "^1.1.2"
   },
   "devDependencies": {
     "postcss": "^8",

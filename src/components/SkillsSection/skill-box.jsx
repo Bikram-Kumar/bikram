@@ -1,5 +1,3 @@
-import StackIcon from "tech-stack-icons";
-
 
 export default function SkillBox({heading, skills, desc}) {
     return (
@@ -8,7 +6,7 @@ export default function SkillBox({heading, skills, desc}) {
                 {heading}
             </h1>
             <div className="flex justify-center py-4 gap-2">
-                {skills.map((skill) => <StackIcon className="size-8" name={skill}/>)}
+                {skills.map((skill) => <img className="size-8" src={"/icons/" + skill + ".svg"} />)}
             </div>
             <p className="text-sm p-4">{desc}</p>
         </div>
