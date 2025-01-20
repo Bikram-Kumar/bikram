@@ -1,7 +1,14 @@
 import Link from "next/link";
 import { IconBrandGithubFilled, IconBrandLinkedinFilled, IconMailFilled } from "@tabler/icons-react";
+import { connection } from "next/server";
+import { updateAndGetVisitCounts } from "@/lib/visit-counts";
 
-export default function Footer() {
+
+
+export default async function Footer() {
+    await connection();
+    const visitCounts = await updateAndGetVisitCounts();
+
     return (
         <div className="flex flex-col items-center w-full h-96 bg-black pt-8">
             <h1 className="text-4xl">
@@ -22,6 +29,9 @@ export default function Footer() {
                 </Link>
             </div>
   
+            <br />
+            <br />
+            <p className="text-center text-xs">Visited {visitCounts} times</p>
         </div>
     );    
 }
