@@ -1,9 +1,11 @@
 import { MongoClient } from "mongodb";
 import 'dotenv/config'
+import { connection } from "next/server";
 
 const client = new MongoClient(process.env.MONGO_URI);
 
 export default async function Home() {
+  await connection();
   const visitCounts = await updateAndGetVisitCounts();
   return (
     <div className="h-screen flex items-center justify-center">
