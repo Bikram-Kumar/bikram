@@ -49,19 +49,20 @@ export default function SkillsSection() {
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-4">
 
-                    <SkillBox heading={"General Programming"} skills={["cpp", "javascript", "java"]} desc="I love programming to solve real life problems." />
-                    <SkillBox heading={"Web Development"} skills={["nextjs", "react", "express", "mongodb", "postgresql", "mysql", "tailwindcss"]} desc="I create scalable full stack apps that use latest tools." />
-                    <SkillBox heading={"Android Development"} skills={["java", "gradle", "androidstudio"]} desc="I create Android Apps for day-to-day use." />
-                    <SkillBox heading={"Cross Platform Development"} skills={["flutter", "dart"]} desc="As a cross platform developer, I create apps that work equally well on multiple platforms like Android, Windows, iOS, Web." />
-                    <SkillBox heading={"Game Development"} skills={["unity", "csharp", "unrealengine", "cpp"]} desc="I create video games in my free time." />
-                    <SkillBox heading={"Tools & Technologies"} skills={["git", "bash", "powershell", "docker", "visualstudio", "vscode"]} desc="I utilize varieties of tools and technologies to help accelerate my workflow." />
+                    <SkillBox heading={"Programming"} skills={["cpp", "javascript", "java"]} desc="With a unique blend of competitive programming and software development expertise, I build cutting-edge products that showcase technical excellence, creative problem-solving, and robust engineering." />
+                    <SkillBox heading={"Web Development"} skills={["nextjs", "react", "tailwindcss"]} desc="I build fast, reliable, and scalable full-stack web applications using robust frameworks, enabling businesses to accelerate innovation, improve customer experiences, and achieve strategic objectives." />
+                    <SkillBox heading={"Mobile Development"} skills={["flutter", "dart", "java", "androidstudio"]} desc="With hands on experience with Android SDK and Flutter, I create powerful and portable applications for mobile devices that satisfy user needs." />
+                    <SkillBox heading={"Backend Development"} skills={["nextjs", "express"]} desc="As a backend developer, I create scalable and efficient server-side applications, robust database architectures, and seamless API integrations that power fast, secure, and reliable digital experiences." />
+                    <SkillBox heading={"Database Management"} skills={["mongodb", "postgresql", "mysql"]} desc="By harnessing the power of SQL and NoSQL databases, I create flexible and high-performance data management systems that support complex applications and drive business success." />
+                    <SkillBox heading={"Game Development"} skills={["unity", "csharp", "unrealengine", "cpp"]} desc="Outside of work, I enjoy creating video games, combining art, design, and programming to bring my ideas to life." />
+                    <SkillBox heading={"Tools & Technologies"} skills={["git", "bash", "powershell", "docker", "visualstudio", "cmake", "gradle"]} desc="To accelerate development and optimize efficiency, I leverage a range of cutting-edge tools, featuring build automation, containerization, and other expert technologies within my toolkit." />
 
                    
                 </div>
 
-                <div className="grid grid-cols-5 gap-8 p-8 bg-neutral-900 rounded-xl">
+                {/*<div className="grid grid-cols-5 gap-8 p-8 bg-neutral-900 rounded-xl">
                     {skillSet.map((skill) => <img key={skill} className="size-16" src={"/icons/" + skill + ".svg"}/>)}
-                </div>
+                </div>*/}
             </div>
         </div>
     );    

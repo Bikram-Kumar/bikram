@@ -8,7 +8,7 @@ export default function SkillBox({heading, skills, desc}) {
             <div className="flex justify-center py-4 gap-2">
                 {skills.map((skill) => <img className="size-8" src={"/icons/" + skill + ".svg"} />)}
             </div>
-            <p className="text-sm p-4">{desc}</p>
+            <p className="text-sm p-3">{desc}</p>
         </div>
     );
 }
