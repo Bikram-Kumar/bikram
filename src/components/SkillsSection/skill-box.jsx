@@ -6,9 +6,9 @@ export default function SkillBox({heading, skills, desc}) {
                 {heading}
             </h1>
             <div className="flex justify-center py-4 gap-2">
-                {skills.map((skill) => <img className="size-8" src={"/icons/" + skill + ".svg"} />)}
+                {skills.map((skill) => <img className="size-8" src={"/icons/" + skill + ".svg"} key={skill}/>)}
             </div>
-            <p className="text-sm p-3">{desc}</p>
+            <p className="text-sm p-4">{desc}</p>
         </div>
     );
 }
