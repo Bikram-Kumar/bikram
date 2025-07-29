@@ -13,7 +13,7 @@ export default function ProjectsSection() {
                     <ProjectBox name="Fooduck" img="/images/fooduck.png" url="https://github.com/Bikram-Kumar/fooduck" desc="A cross-platform app to manage and find food recipes." skills={["flutter", "dart"]} />
                     <ProjectBox name="Bad Apple" img="/images/bad-apple.png" url="https://github.com/Bikram-Kumar/BadAppleWithMazes" desc="Render of Bad Apple With Mazes" skills={["html5", "css3", "javascript"]} />
                     <ProjectBox name="Netflix Bot" img="/icons/python.svg" url="https://github.com/Bikram-Kumar/NetflixBot" desc="A chatbot that tells you about Netflix shows." skills={["python"]} />
-                    <ProjectBox name="GamIsland" img="/images/gamisland.png" url="https://gamisland.onrender.com" desc="A place for the games I create in my free time." skills={["php", "javascript", "postgresql"]} />
+                    <ProjectBox name="Cube Dash" img="/images/cube-dash.jpeg" url="https://bikramkumar.itch.io/cube-dash" desc="A 3D runner game" skills={["csharp", "unity"]} />
                 </div>
 
             </div>

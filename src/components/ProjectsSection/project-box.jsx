@@ -16,7 +16,7 @@ export default function ProjectBox({name, img, url, desc, skills}) {
                     {name}
                 </h1>
                 <div className="flex justify-center py-2 gap-2">
-                    {skills.map((skill) => <img className="size-6" src={"/icons/" + skill + ".svg"} />)}
+                    {skills.map((skill) => <img className="size-6" src={"/icons/" + skill + ".svg"} key={skill}/>)}
                 </div>
 
             </div>

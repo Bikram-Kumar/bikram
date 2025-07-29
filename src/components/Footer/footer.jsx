@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { IconBrandGithubFilled, IconBrandLinkedinFilled, IconMailFilled } from "@tabler/icons-react";
+import { IconBrandGithubFilled, IconBrandStackoverflow, IconBrandLinkedinFilled, IconMailFilled } from "@tabler/icons-react";
 import { connection } from "next/server";
 import { updateAndGetVisitCounts } from "@/lib/visit-counts";
 
@@ -20,6 +20,7 @@ export default async function Footer() {
                     <IconBrandGithubFilled className="inline size-4"/> GitHub 
                 </Link>
                 <br />
+                
                 <Link href="https://linkedin.com/in/kr-bikram">
                     <IconBrandLinkedinFilled className="inline size-4"/> Linkedin 
                 </Link>
@@ -29,9 +30,11 @@ export default async function Footer() {
                 </Link>
             </div>
   
+            
             <br />
             <br />
-            <p className="text-center text-xs">Visited {visitCounts} times</p>
+            <p className="text-center text-xs">{visitCounts} visits</p>
+            <p className="text-center text-xs">Thanks for coming!</p>
         </div>
     );    
 }
