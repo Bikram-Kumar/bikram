@@ -12,7 +12,7 @@ export default function AboutSection() {
             <div className="flex flex-col items-center">
                 <Revealer>
                     <Image
-                        src="/images/bikram.jpg"
+                        src="/images/bikram.png"
                         alt="Bikram"
                         width={900}
                         height={1600}

@@ -49,7 +49,7 @@ export default function SkillsSection() {
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-4">
 
-                    <SkillBox heading={"Programming"} skills={["cpp", "javascript", "java"]} desc="With a unique blend of competitive programming and software development expertise, I build cutting-edge products that showcase technical excellence, creative problem-solving, and robust engineering." />
+                    <SkillBox heading={"Programming"} skills={["cpp", "javascript", "java"]} desc="With a unique blend of algorithmic programming and software development expertise, I build cutting-edge products that showcase technical excellence, creative problem-solving, and robust engineering." />
                     <SkillBox heading={"Web Development"} skills={["nextjs", "react", "tailwindcss"]} desc="I build fast, reliable, and scalable full-stack web applications using robust frameworks, enabling businesses to accelerate innovation, improve customer experiences, and achieve strategic objectives." />
                     <SkillBox heading={"Mobile Development"} skills={["flutter", "dart", "java", "androidstudio"]} desc="With hands on experience with Android SDK and Flutter, I create powerful and portable applications for mobile devices that satisfy user needs." />
                     <SkillBox heading={"Backend Development"} skills={["nextjs", "express"]} desc="As a backend developer, I create scalable and efficient server-side applications, robust database architectures, and seamless API integrations that power fast, secure, and reliable digital experiences." />
