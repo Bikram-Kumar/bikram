@@ -10,7 +10,7 @@ export default async function Footer() {
     const visitCounts = await updateAndGetVisitCounts();
 
     return (
-        <div className="flex flex-col items-center w-full h-96 bg-black pt-8">
+        <div className="flex flex-col items-center w-full h-96 bg-neutral-950 pt-8">
             <h1 className="text-4xl">
                 Let's get in touch!
             </h1>

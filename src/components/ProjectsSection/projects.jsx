@@ -2,7 +2,7 @@ import ProjectBox from "./project-box";
 
 export default function ProjectsSection() {
     return (
-        <div className="w-full bg-neutral-950 pt-8">
+        <div className="w-full bg-black py-8">
             <div className="flex flex-col items-center">
                 <h1 className="text-4xl pb-8">
                     Projects
