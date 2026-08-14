@@ -23,7 +23,7 @@ export default function AboutSection() {
                     <p className="w-full max-w-xl my-8 px-4 font-serif">
                             I am Bikram Kumar, a final-year Computer Science undergraduate at NIT Agartala. Over the past six years, I have focused heavily on software development, most recently working as a Software Developer Intern at the National Informatics Centre (NIC). 
 
-I place a strong emphasis on problem-solving and building independent products. Alongside holding an 1820+ contest rating on LeetCode, my core projects include Momentz (a social media application), Skyte Messenger (a real-time chat platform), and ControlBoard (a PC keyboard for Android). Building these applications from scratch has given me practical experience in software architecture, state management, and end-to-end delivery.
+I place a strong emphasis on problem-solving and building independent products. Alongside holding an 1865+ contest rating (Knight) on LeetCode, my core projects include Momentz (a social media application), Skyte Messenger (a real-time chat platform), and ControlBoard (a PC keyboard for Android). Building these applications from scratch has given me practical experience in software architecture, state management, and end-to-end delivery.
 
 Technically, my focus is on full-stack and cross-platform development using Flutter, the Android SDK, React, Express.js, and Spring Boot. Grounded in a solid foundation of computer architecture, software engineering principles, and core computer science concepts, my goal is always to write clean, maintainable, and scalable code.
                     </p>
